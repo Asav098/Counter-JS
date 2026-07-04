@@ -1,0 +1,52 @@
+#countlabel{
+    font-size:3em;
+    display:block;
+    text-align:center;
+    color:blanchedalmond;
+    margin-bottom:20px;
+    border: 1px solid ;
+    padding:20px;
+    background-color:rgb(0, 0, 0);
+}
+
+#butcont{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:40px;
+}
+.buttons{
+    padding:10px 20px;
+    font-size:1.5em;
+    color:blanchedalmond;
+    background-color:black;
+    border: 1px solid blanchedalmond ;
+    border-radius:12px;
+    box-shadow:2px 2px 2px black;
+    cursor:pointer;
+}
+
+.buttons:hover{
+    transform : scale(1.1); 
+    transition: transform 0.5s ease-in-out;
+}
+.buttons:active{
+    transform: scale(0.8);
+    transition: transform 0.2s ease-in-out;
+}
+body{
+    background-color: rgb(70, 67, 67);
+    margin:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+#container{
+    border: 1px solid blanchedalmond;
+    display:inline-block;
+    padding:50px;
+    background-color:rgb(114, 16, 114);
+    
+}
